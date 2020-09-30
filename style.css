@@ -1,8 +1,16 @@
 body {
-    background-color: whitesmoke;
+    background-color: #CEDFDF;
     padding: 0;
     margin: 0;
     font-family: Montserrat;
+}
+a {
+    color: #000 !important;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
 
 #navbar {
@@ -18,7 +26,7 @@ ul {
     text-align: left;
 }
 
-.home {
+#home {
     margin: 10% 15% !important;
     box-shadow: 0 0 8px grey !important;
     text-align: center;
@@ -32,7 +40,7 @@ ul {
 .navbar-brand {
     font-family: Homemade Apple !important;
     color: #000 !important;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
     padding-right: 2%;
     padding-top: 2%;;
@@ -43,6 +51,7 @@ ul {
 
 .nav-item {
     color: #000 !important;
+    font-size: 1.5rem !important;
 }
 
 .nav-link {
@@ -89,6 +98,61 @@ left: 25%;
     position: absolute;
     right: 0;
     bottom: 0;
-    padding-right: 2%;
-    padding-bottom: 2%;
+    padding-right: 2% !important;
+    padding-bottom: 3% !important;
+    font-weight: normal !important;
+}
+
+/* -------------------- experience ------------------ */
+
+#experience {
+    text-align: left;
+    margin: 10% 15% !important;
+    box-shadow: 0 0 8px grey !important;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+#experience h2 {
+    font-weight: 900;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+#experience h4 {
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: 0;
+padding: 0;
+}
+
+.education {
+    padding: 1%;
+}
+
+.roles {
+    padding: 1%;
+}
+
+.leadership {
+    padding: 1%;
+}
+
+.volunteering {
+    padding: 1%;
+}
+
+/* ------------------------  contact ------------------  */
+#contact {
+    text-align: left;
+    margin: 10% 15% !important;
+    box-shadow: 0 0 8px grey !important;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
