@@ -26,6 +26,14 @@ ul {
     text-align: left;
 }
 
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
 #home {
     margin: 10% 15% !important;
     box-shadow: 0 0 8px grey !important;
@@ -64,7 +72,7 @@ margin: 0 5px !important;
     color: grey;
 }
 
-img {
+.pattie {
     position: absolute;
     top: 40px;
 left: 25%;
@@ -72,7 +80,7 @@ left: 25%;
     width: 50%;
     /* padding: 8% 5% 5% 5%; */
     border-radius: 100%;
-    /* background-color: rgb(255,255,102); */
+    /* background-color: rgb(255,255,102); */     
 }
 
 .title {
@@ -117,7 +125,7 @@ left: 25%;
 }
 
 #experience h2 {
-    font-weight: 900;
+    font-weight: 700;
     padding: 0;
     margin: 10px 0 0 0;
 }
@@ -130,21 +138,29 @@ padding: 0;
 }
 
 .education {
-    padding: 1%;
+    padding: 1% 5%;
+    text-align: center;
 }
 
 .roles {
-    padding: 1%;
+    padding: 1% 5%;
+    text-align: center;
+
 }
 
 .leadership {
-    padding: 1%;
+    padding: 1% 5%;
 }
 
 .volunteering {
-    padding: 1%;
+    padding: 1% 5%;
 }
 
+hr {
+    width: 50%;
+    border: none;
+    border-top: 1px solid lightgray;
+}
 /* ------------------------  contact ------------------  */
 #contact {
     text-align: left;
@@ -153,6 +169,107 @@ padding: 0;
     overflow: hidden;
     position: relative;
     background-color: #fff;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
+
+.girl {
+    position: absolute;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 45%;
+}
+
+.contact-info {
+    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 35%;
+    margin-left: 2%;
+    display: inline-block;
+    width: 50%;
+}
+
+.contact-info h1 {
+ font-weight: 600;
+}
+
+.social-btn {
+    background-color: #CEDFDF;
+    border-radius: 10%;
+    padding: 1% 9%;
+    font-size: 1rem;
+    margin: 5px auto;
+    display: inline-block;
+    color: #fff !important;
+    font-size: 30px;
+}
+
+.flip {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
+/* ------------------ skills ------------------ */
+
+#skills {
+        margin: 10% 15% !important;
+        box-shadow: 0 0 8px grey !important;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        padding: 15% 5%;
+        background-color: #fff;
+    }
+
+    .skill-item {
+        box-shadow: 0 0 5px gray;
+        margin: 20px 0;
+        padding: 20px 10px;
+    }
+
+    .skill-pic {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .tools {
+      width: 10%;
+      margin-bottom: 20px;
+    }
+
+    .skills-title {
+        display: inline-block;
+        margin: 0 0 20px 0;
+        padding: 0%;
+
+        font-weight: 700;
+    }
+
+    /* ------------------ projects ------------------ */
+
+    #projects {
+        margin: 10% 5% !important;
+        box-shadow: 0 0 8px grey !important;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+        padding: 15% 5%;
+        background-color: #fff;
+    }
+
+    .project-pic {
+        width: 20%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .project-item {
+        box-shadow: 0 0 5px gray;
+        margin: 60px 0;
+        padding: 20px 10px;
+    }
+
+    .project-type {
+        font-weight: 700;
+    }
